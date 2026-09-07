@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2016",
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "paths": {
+            "@/*": ["./src/*"],
+            "@atoms/*": ["./src/atoms/*"]
+        }
+    },
+    "include": ["src/**/*", "./setupTests.ts"],
+    "exclude": ["node_modules"]
+}

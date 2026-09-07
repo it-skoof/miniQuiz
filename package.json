@@ -1,0 +1,42 @@
+{
+  "name": "miniquiz",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "vite -c ./vite.config.ts -m production",
+    "start:dev": "vite -c ./vite.config.ts -m development",
+    "test": "vitest run --config ./vitest.config.ts",
+    "test:browser": "vitest --config ./vitest.config.ts",
+    "push": "npm run test && git push origin main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@swc/plugin-styled-components": "^13.0.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitest/browser-playwright": "^4.1.11",
+    "@vitest/browser-preview": "^4.1.11",
+    "@vitest/ui": "^4.1.11",
+    "jsdom": "^30.0.1",
+    "react-icons": "^5.7.0",
+    "styled-components": "^6.5.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11",
+    "zustand": "^5.0.15"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
