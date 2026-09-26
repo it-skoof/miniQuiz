@@ -1,6 +1,6 @@
 import Theme from '@atoms/theme'
 import { PlayPage } from './pages/PlayPage'
-export const App = () => {
+const App = () => {
   return (
     <>
       <Theme/>
@@ -8,3 +8,4 @@ export const App = () => {
     </>
   )
 }
+export default App;
